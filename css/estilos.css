@@ -1,0 +1,740 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*formulario */
+
+/* form {
+    margin: 40px 0 0px;
+    z-index: 1;
+    width: 70%;
+    padding: 10px;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
+    background-color: white;
+} */
+
+/* formulario */
+
+header .burger {
+    color: black;
+    font-size:30px;
+    display: none;
+
+}
+
+p {
+    padding:10px;
+    line-height: 1.5em; 
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #3f3f3f;
+ }
+
+ a {
+    text-decoration: none;
+    color: black;
+ }
+
+ a:hover {
+    color: black;
+ }
+
+ a.activo {
+     color: #DF4215
+ }
+
+/* cabecera */
+
+.hero {
+    height: 100vh;
+    background-image: url('../img/CDS_Malaga.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+ }
+
+.hero h1 {
+    color: black;
+    font-size: 50px;
+    
+}
+
+.hero h2 {
+    color:black;
+    margin-bottom: 550px;
+ }
+
+ header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    padding: 20px;
+}
+
+
+ header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    padding: 10px;
+
+}
+
+header nav ul li a { 
+    color: black;
+}
+
+ img  {
+    max-width: 100%;
+}
+
+
+/* Introduccion empresa */
+
+.intro  {
+    /* padding: 10px;  */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+ }
+
+.introin {
+    display: flex;
+    margin-top:20px;
+}
+
+.titulo {
+    margin: 100px;
+    text-decoration: underline;
+    color:black
+   
+    
+}
+
+.empresa h3 {
+    font-size: 20px;
+}
+
+.empresa p {
+    font-size: 13px;
+}
+
+.form3 {
+    flex-basis: 300px;
+    padding: 10px;
+    flex-grow: 3;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form1 {
+    flex-basis: 300px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.columna {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+/* formulario */
+
+.formulario {
+    display:flex;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.form50 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form66 {
+        width: 66%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+}
+
+.form100 {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form100check {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+/* newsletter */
+
+.newsletter {
+    font-size:32px;
+    color: blue;
+}
+
+.boton_newsletter {
+    background-color:cadetblue;
+    /* background: -webkit-linear-gradient(top, #DF4215, rgb(129, 28, 0)); */
+    color: white;
+    padding:15px;
+    font-size: 20px;
+    /* border: none; para gradiente */
+    margin: 20px;
+    border-radius: 20px;
+    border: 4px solid grey;
+}
+
+.boton_newsletter:hover {
+
+    cursor: pointer;
+}
+
+.boton_newsletter:focus, .input_newsletter:focus {
+    outline: none,
+}
+
+.input_newsletter {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border: 4px solid cadetblue;
+    margin: 20px;
+    border-radius: 5px;
+    
+}
+
+/* footer */
+
+footer {
+    background-color: cadetblue;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 16px;
+        position: relative;
+        border: 1px solid transparent;
+}
+                
+/* .top {
+    font-size: 30px;
+    position: absolute;
+    animation-name: intermitente;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform: translateY(50%);
+    right: 1%;
+    background-color: transparent;
+    color:white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    bottom: 35px;
+}
+
+a, .top:hover {
+    color: white;
+} */
+
+
+/* .izda {
+    border: 1px solid white;
+} */
+
+
+.izda p {
+    padding: 5px;
+}
+
+.dcha {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+
+.dcha a {
+    color: black;
+    font-size: 40px;
+    margin: 5px; 
+}
+
+.dcha a:hover{
+    color:white;
+}
+
+.legales a {
+    font-size: 15px;
+}
+
+.legales a:hover{
+    color:white;    
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: black;
+}
+
+.minifooter p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+/* Página COMPRAS */
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px); 
+    grid-gap: 70px;
+    justify-content: center;
+    margin: 50px;
+    align-items: center;
+   
+}
+
+.tarjeta {
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 2px 4px grey;
+    font-size: 16px;
+}
+
+.imagen {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.imagen img {
+    height: 200px;
+    width: 100%;
+   
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    align-self: center;
+    
+}
+
+.btn:hover {
+    color: darkgray
+}
+
+.datos {
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.top {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.direccion {
+    width:200px;
+}
+
+.direccion p:first-child {
+    color: coral;
+    font-weight: bold;
+}
+
+.rrss a {
+    color: #666666
+}
+
+.rrss a:hover {
+    color: coral;
+}
+
+/* detalles viviendas */
+
+.vivienda {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline
+}
+
+.expl {
+    padding: 5px;
+}
+
+/* Breadcrumbs */
+
+.bread {
+    height: 50px;
+    padding: 20px;
+    justify-content: initial;
+    align-items: center;
+    display: flex;
+}
+
+/* Posicionamiento */
+
+.derecha {
+   position: absolute;
+   right: 10px;
+   background-color: cadetblue;
+   font-weight: bold;
+}
+
+.paginas {
+    background-color: white;
+    border: 2px solid cadetblue;
+    
+}
+
+.paginaciones {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+
+.izquierda {
+    position: absolute;
+    left: 10px;
+    background-color: cadetblue;
+    font-weight: bold;
+}
+
+button {
+    font-size: 22px;
+    padding: 5px;
+    border: none;
+}
+
+/* Detalles compras */
+
+.detalle_titulo {
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.desc {
+    text-decoration: underline;
+    margin:20px;
+}
+
+.cuadro {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin:20px;
+}
+
+.objeto {
+    line-height: 40px;
+}
+
+.titulo1 {
+    text-decoration: underline;
+    margin-left:20px; /*probar */
+}
+
+.value1 {
+    color:red;
+}
+
+
+.foto {
+    text-decoration: underline;
+    margin:20px;
+
+}
+ .contenedor1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 600px); 
+    grid-template-rows: repeat(2, 500px);
+    grid-gap: 100px;
+    justify-content: center;
+}
+ 
+/* Ubicacion */
+
+.ubi {
+    flex-basis: 300px;
+    padding: 10px;
+    flex-grow: 3;
+    margin:30px;
+}
+
+/* Formulario detalles compras */
+
+.formnomape {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.formtlf {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.formemail {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.formcheck {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    height: 60px;
+}
+
+
+form {
+    margin: 40px 0 0px;
+    z-index: 1; 
+    width: 70%;
+    padding: 10px;
+    box-shadow: 4px 4px 16px cadetblue;
+    background-color: white; 
+} 
+
+.fila {
+    display:flex; 
+}
+
+/* imagen de portada */
+
+.portada {
+    justify-content: center;
+    /* text-align: center; */
+    display: flex;
+}
+
+.detahead {
+    border: 1px solid red;
+}
+
+/* contacto.html */
+
+
+ .fila1 {
+    padding: 40px; 
+    flex-wrap: wrap;
+    flex-direction: initial;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    position: relative;
+    margin-top: 80px;
+} 
+
+
+.col1 {
+    flex-basis: 300px;
+    padding: 10px;
+    flex-grow: 3;
+}
+
+.col3 {
+    flex-basis: 300px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.direccion {
+    line-height: 1.8em;
+}
+
+.direccion2 {
+    line-height: 1.8em;
+    font-size:23px;
+}
+
+ul {
+    padding-left: 60px;
+
+}
+
+li {
+    padding: 10px;
+    line-height: 1.4em;
+}
+
+.dinero {
+    width: 120px;
+}
+
+/* botones index */
+
+.boton_naranja {
+    background-color: #DF4215;
+    /* background: -webkit-linear-gradient(top, #DF4215, rgb(129, 28, 0)); */
+    color: white;
+    padding:15px;
+    font-size: 20px;
+    /* border: none; para gradiente */
+    margin: 20px;
+    border-radius: 20px;
+    border: 4px solid rgb(196, 123, 56);
+}
+
+
+.boton_azul {
+    background-color: blue;;
+    /* background: -webkit-linear-gradient(top, #DF4215, rgb(129, 28, 0)); */
+    color: white;
+    padding:15px;
+    font-size: 20px;
+    /* border: none; para gradiente */
+    margin: 20px;
+    border-radius: 20px;
+    border: 4px solid cadetblue
+}
+
+
+/* estilos pagina contacto */
+
+h1 {
+    font-size: 34px;
+    padding: 10px;
+
+}
+
+h2 {
+    font-size: 26px;
+    padding: 10px;
+}
+
+ul {
+    padding-left: 60px;
+
+}
+
+li {
+    padding: 10px;
+    line-height: 1.4em;
+}
+
+/* media queries */
+
+@media  (max-width: 740px) {
+    nav {
+        display: none;
+    }
+    header .burger {
+        display: initial;
+    }
+    .hero h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .columna img {
+        height: 160px;
+    }
+   
+    .columna .boton {
+        margin: 40px;
+        color: white;
+        background-color: #DF4215;
+        font-size: 18px;
+        padding: 15px;
+        border-radius: 10px;
+
+    }
+
+    .newsletter {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .input_newsletter {
+
+        font-size: 18px;
+        padding: 12px;
+    }
+    
+
+    .boton_newsletter {
+        padding: 12px;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+
+    .form1 {
+        flex-basis: initial;
+    }
+
+    .dcha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
